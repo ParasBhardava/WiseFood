@@ -1,0 +1,75 @@
+/* Table Show */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    font-size: 35px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #d9563f;
+    text-decoration: underline;
+}
+
+.cards {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.slot-card {
+    background-color: #b4d3e1;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    padding: 10px;
+}
+
+.content h2 {
+    margin-top: 5px;
+    letter-spacing: 1.5px;
+    color: #333;
+}
+
+.content h3 {
+    font-size: 17px;
+    columns: #5c5c5c;
+    letter-spacing: 1.5px;
+}
+
+.content p {
+    margin-top: 10px;
+    color: #5c5c5c;
+}
+
+.content a {
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #d9563f;
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 18px;
+    border-radius: 40px;
+    letter-spacing: 1.5px;
+}
+
+.content a:hover {
+    background-color: #db7d7b;
+    transition: 2s ease;
+}
